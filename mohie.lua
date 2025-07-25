@@ -85,7 +85,7 @@ function Notification:Create()
     title.Size = UDim2.new(0.8, 0, 1, 0)
     title.Position = UDim2.new(0.05, 0, 0, 0)
     title.BackgroundTransparency = 1
-    title.Text = "MOHIE DETECTED ⚡"
+    title.Text = "MOHIE DETECTED"
     title.TextColor3 = Color3.new(1, 1, 1)
     title.Font = Enum.Font.GothamBold
     title.TextSize = 18
@@ -438,7 +438,7 @@ local function StartTracker()
             
             -- Console output
             print("\n" .. string.rep("=", 50))
-            print("MOHIE DETECTED IN PRISON VC! 🔥")
+            print("MOHIE DETECTED IN PRISON VC")
             print("Player:", targetPlayer.DisplayName .. " (@" .. targetPlayer.Name .. ")")
             print("UserID:", targetPlayer.UserId)
             if distance then
