@@ -1,5 +1,4 @@
 -- Prison VC Mohie Tracker
--- Secure GitHub JSON Tracking System
 -- By dabbingman137 | Discord: dabbingman137
 
 local HttpService = game:GetService("HttpService")
